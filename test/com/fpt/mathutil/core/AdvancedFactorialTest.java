@@ -21,7 +21,7 @@ public class AdvancedFactorialTest {
     @Parameters
     public static Object[][] initData(){
         return new Integer[][]{
-            {0,1},{1,1},{2,2},{3,6},{4,24},{5,120},
+            {0,1},{1,1},{2,2},{3,6},{4,24}
         }; 
     }
     
