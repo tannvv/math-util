@@ -21,7 +21,6 @@ public class FactorialTest {
         long actual = MathUtils.getFactorial(5);
         Assert.assertEquals(expected, actual);
         Assert.assertEquals(720, MathUtils.getFactorial(6));
-        Assert.assertEquals(1, MathUtils.getFactorial(0));
     }
     
     @Test (expected = IllegalArgumentException.class)
